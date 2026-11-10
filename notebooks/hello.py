@@ -19,7 +19,7 @@ def _(mo):
 
 @app.cell
 def _(mo, slider):
-    mo.md(f"the square root of n is **{slider.value ** 0.5:.3f}**")
+    mo.md(f"n squared is **{slider.value ** 2}**")
     return
 
 
